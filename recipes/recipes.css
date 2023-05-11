@@ -6,10 +6,38 @@
 body {
   background-image: url(../assets/map.webp);
   background-repeat: repeat;
-  width: auto;
+  font-style: italic;
+}
+
+.card {
+  width: 600px;
+  background: rgba(238, 238, 238, 0.7);
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  margin: 50px auto;
+  padding: 32px;
+}
+
+h1,
+h3 {
+  font-weight: bold;
 }
 
 img {
-  width: 400px;
+  width: 250px;
   height: auto;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ol {
+  margin: 0;
+  padding-left: 16px;
 }

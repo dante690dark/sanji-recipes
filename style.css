@@ -49,3 +49,7 @@ a {
   font-size: 20px;
   color: black;
 }
+
+a:hover {
+  color: white;
+}

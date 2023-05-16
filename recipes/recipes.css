@@ -6,6 +6,7 @@
 body {
   background-image: url(../assets/map.webp);
   background-repeat: repeat;
+  background-attachment: fixed;
   font-style: italic;
 }
 
